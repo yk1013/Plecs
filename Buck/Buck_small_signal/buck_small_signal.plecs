@@ -48,9 +48,9 @@ Plecs {
   ScriptsDialogGeometry ""
   ScriptsDialogSplitterPos "0"
   Schematic {
-    Location      [379, 327; 974, 653]
-    ZoomFactor    0.873846
-    SliderPosition [42, 0]
+    Location      [3425, 228; 4242, 685]
+    ZoomFactor    1
+    SliderPosition [0, 0]
     ShowBrowser   off
     BrowserWidth  100
     Component {
@@ -696,4 +696,4 @@ Plecs {
     InitCycles    "0"
   }
 }
-DemoSignature "kS7Rj+Dj25iXwx5bhL435JeaE+fdYuDqy/Gcimc9R+A="
+DemoSignature "kVjO2UkgR0Yj3+PP0kC+sAI6GgkbB6+BVte3P94vRVU="
