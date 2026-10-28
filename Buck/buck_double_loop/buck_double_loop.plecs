@@ -24,7 +24,7 @@ Plecs {
   AlgebraicLoopWithStateMachineMsg "3"
   AssertionAction "1"
   InitializationCommands "Vin=24;\nLf=240e-6;\nCf=130e-6;\nfs=20e3;\nT_end=1/f"
-"s*500;\nRLd=3;\n\n"
+"s*500;\nRLd=4;\n\n"
   InitialState  "1"
   SystemState   ""
   TaskingMode   "1"
@@ -48,8 +48,8 @@ Plecs {
   ScriptsDialogGeometry ""
   ScriptsDialogSplitterPos "0"
   Schematic {
-    Location      [3349, 376; 3989, 761]
-    ZoomFactor    0.667275
+    Location      [3540, 362; 4180, 741]
+    ZoomFactor    0.583096
     SliderPosition [0, 0]
     ShowBrowser   off
     BrowserWidth  100
@@ -57,7 +57,7 @@ Plecs {
       Type          DCVoltageSource
       Name          "V_dc"
       Show          on
-      Position      [145, 150]
+      Position      [610, 460]
       Direction     down
       Flipped       on
       LabelPosition east
@@ -71,7 +71,7 @@ Plecs {
       Type          Igbt
       Name          "IGBT1"
       Show          on
-      Position      [225, 120]
+      Position      [690, 430]
       Direction     right
       Flipped       on
       LabelPosition south
@@ -110,7 +110,7 @@ Plecs {
       Type          Diode
       Name          "D1"
       Show          on
-      Position      [290, 155]
+      Position      [755, 465]
       Direction     down
       Flipped       off
       LabelPosition east
@@ -144,7 +144,7 @@ Plecs {
       Type          Inductor
       Name          "L1"
       Show          on
-      Position      [345, 120]
+      Position      [810, 430]
       Direction     left
       Flipped       off
       LabelPosition south
@@ -163,7 +163,7 @@ Plecs {
       Type          Capacitor
       Name          "C1"
       Show          on
-      Position      [415, 155]
+      Position      [880, 465]
       Direction     down
       Flipped       on
       LabelPosition west
@@ -182,7 +182,7 @@ Plecs {
       Type          Resistor
       Name          "R1"
       Show          on
-      Position      [445, 155]
+      Position      [910, 465]
       Direction     up
       Flipped       off
       LabelPosition east
@@ -196,23 +196,24 @@ Plecs {
       Type          Scope
       Name          "Scope"
       Show          on
-      Position      [150, 490]
+      Position      [260, 225]
       Direction     up
       Flipped       off
       LabelPosition south
-      Location      [554, 32; 1180, 413]
+      Location      [554, 32; 1180, 429]
       State         "AAAA/wAAAAD9AAAAAgAAAAEAAAAAAAAAAPwCAAAAA/sAAAAQAFoAbwBvA"
 "G0AQQByAGUAYQAAAAAA/////wAAADQA////+wAAABQAUwBhAHYAZQBkAFYAaQBlAHcAcwAAAAAA//"
 "///wAAAGYA////+wAAAAwAVAByAGEAYwBlAHMAAAAAAP////8AAABmAP///wAAAAMAAAJyAAAAW/w"
-"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQBAAAAAAAAAnIAAABOAP///wAAAnIAAAEDAAAA"
+"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQBAAAAAAAAAnIAAABOAP///wAAAnIAAAETAAAA"
 "BAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAA"
 "AAAAA=="
       SavedViews    "AAAAAgAAAAA="
-      HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL2AMAAAAGAAAAA"
-"wAAAGQAAAAGAAAAZAAAAAcAAABkAAAABAAAAGQAAAAIAAAAZAAAAAkAAABkAAACZQAAAAsBAAABAA"
-"AAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAACgAAAAAQAAAAAAAABkAAAAAQAAAAAAAABkAAA"
-"AAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAABkAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAA"
-"AAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAACZAAAAAQAAAAAAAAPoAAAAABg="
+      HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJAAAAC"
+"AAAAGQAAAAJAAAAZAAAAAYAAABkAAAABwAAAGQAAAAEAAAAZAAAAAUAAABkAAAAAgAAAGQAAAADAA"
+"AAZAAAAAEAAABkAAACZQAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAACgAAA"
+"AAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAA"
+"AAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAA"
+"AHFAAAAAQAAAAAAAAPoAAAAABg="
       PlotPalettes  "AAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
       Axes          "1"
       TimeRange     "0.0"
@@ -256,7 +257,7 @@ Plecs {
       Type          PlecsProbe
       Name          "Probe"
       Show          on
-      Position      [75, 460]
+      Position      [165, 180]
       Direction     right
       Flipped       off
       LabelPosition south
@@ -270,7 +271,7 @@ Plecs {
       Type          PlecsProbe
       Name          "Probe1"
       Show          on
-      Position      [70, 300]
+      Position      [575, 185]
       Direction     right
       Flipped       off
       LabelPosition south
@@ -284,21 +285,21 @@ Plecs {
       Type          Scope
       Name          "Scope1"
       Show          on
-      Position      [135, 355]
+      Position      [640, 205]
       Direction     up
       Flipped       off
       LabelPosition south
-      Location      [555, 405; 1180, 822]
+      Location      [555, 375; 1180, 808]
       State         "AAAA/wAAAAD9AAAAAgAAAAEAAAAAAAAAAPwCAAAAA/sAAAAQAFoAbwBvA"
 "G0AQQByAGUAYQAAAAAA/////wAAADQA////+wAAABQAUwBhAHYAZQBkAFYAaQBlAHcAcwAAAAAA//"
 "///wAAAGYA////+wAAAAwAVAByAGEAYwBlAHMAAAAAAP////8AAABmAP///wAAAAMAAAJxAAAAW/w"
-"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQBAAAAAAAAAnEAAABOAP///wAAAnEAAAEnAAAA"
+"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQBAAAAAAAAAnEAAABOAP///wAAAnEAAAE3AAAA"
 "BAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAA"
 "AAAAA=="
       SavedViews    "AAAAAgAAAAA="
-      HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJAAAAA"
-"gAAAGQAAAADAAAAZAAAAAEAAABkAAAABgAAAGQAAAAHAAAAZAAAAAQAAABkAAAABQAAAGQAAAAIAA"
-"AAZAAAAAkAAABkAAACZAAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAACiAAA"
+      HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJAAAAC"
+"AAAAGQAAAAJAAAAZAAAAAYAAABkAAAABwAAAGQAAAAEAAAAZAAAAAUAAABkAAAAAgAAAGQAAAADAA"
+"AAZAAAAAEAAABkAAACZAAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAACiAAA"
 "AAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAA"
 "AAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAA"
 "AHCAAAAAQAAAAAAAAPoAAAAABg="
@@ -346,7 +347,7 @@ Plecs {
       SrcComponent  "Components/Control/Continuous/Continuous PID\\nController"
       Name          "Continuous PID\nController"
       Show          on
-      Position      [335, 255]
+      Position      [715, 140]
       Direction     up
       Flipped       off
       LabelPosition south
@@ -491,7 +492,7 @@ Plecs {
       Type          Constant
       Name          "I_ref"
       Show          on
-      Position      [65, 255]
+      Position      [465, 55]
       Direction     right
       Flipped       off
       LabelPosition south
@@ -511,7 +512,7 @@ Plecs {
       Type          Sum
       Name          "Sum"
       Show          off
-      Position      [225, 255]
+      Position      [635, 140]
       Direction     up
       Flipped       off
       LabelPosition south
@@ -535,7 +536,7 @@ Plecs {
       Type          TriangleGenerator
       Name          "Triangular Wave"
       Show          on
-      Position      [410, 330]
+      Position      [735, 215]
       Direction     right
       Flipped       off
       LabelPosition south
@@ -569,7 +570,7 @@ Plecs {
       Type          Comparator
       Name          "Comparator"
       Show          on
-      Position      [495, 260]
+      Position      [820, 145]
       Direction     right
       Flipped       off
       LabelPosition south
@@ -578,21 +579,21 @@ Plecs {
       Type          Scope
       Name          "Scope2"
       Show          on
-      Position      [670, 260]
+      Position      [900, 145]
       Direction     up
       Flipped       off
       LabelPosition south
-      Location      [-19, 361; 607, 766]
+      Location      [0, 361; 626, 774]
       State         "AAAA/wAAAAD9AAAAAgAAAAEAAAAAAAAAAPwCAAAAA/sAAAAQAFoAbwBvA"
 "G0AQQByAGUAYQAAAAAA/////wAAADQA////+wAAABQAUwBhAHYAZQBkAFYAaQBlAHcAcwAAAAAA//"
 "///wAAAGYA////+wAAAAwAVAByAGEAYwBlAHMAAAAAAP////8AAABmAP///wAAAAMAAAJyAAAAW/w"
-"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQBAAAAAAAAAnIAAABOAP///wAAAnIAAAEbAAAA"
+"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQBAAAAAAAAAnIAAABOAP///wAAAnIAAAEjAAAA"
 "BAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAA"
 "AAAAA=="
       SavedViews    "AAAAAgAAAAA="
-      HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJAAAAA"
-"gAAAGQAAAADAAAAZAAAAAEAAABkAAAABgAAAGQAAAAHAAAAZAAAAAQAAABkAAAABQAAAGQAAAAIAA"
-"AAZAAAAAkAAABkAAACZQAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAAB7AAA"
+      HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJAAAAC"
+"AAAAGQAAAAJAAAAZAAAAAYAAABkAAAABwAAAGQAAAAEAAAAZAAAAAUAAABkAAAAAgAAAGQAAAADAA"
+"AAZAAAAAEAAABkAAACZQAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAAB7AAA"
 "AAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAA"
 "AAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAA"
 "AHqAAAAAQAAAAAAAAPoAAAAABg="
@@ -639,7 +640,7 @@ Plecs {
       Type          Step
       Name          "Step"
       Show          on
-      Position      [395, 85]
+      Position      [860, 395]
       Direction     right
       Flipped       off
       LabelPosition south
@@ -668,7 +669,7 @@ Plecs {
       Type          Switch
       Name          "S1"
       Show          on
-      Position      [480, 95]
+      Position      [945, 405]
       Direction     down
       Flipped       off
       LabelPosition east
@@ -682,7 +683,7 @@ Plecs {
       Type          Resistor
       Name          "R2"
       Show          on
-      Position      [480, 155]
+      Position      [945, 465]
       Direction     up
       Flipped       off
       LabelPosition east
@@ -697,7 +698,7 @@ Plecs {
       SrcComponent  "Components/Control/Discrete/Discrete PID\\nController"
       Name          "Discrete PID\nController"
       Show          on
-      Position      [75, 50]
+      Position      [165, 455]
       Direction     up
       Flipped       off
       LabelPosition south
@@ -853,7 +854,7 @@ Plecs {
       SrcComponent  "Components/Control/Continuous/Continuous PID\\nController"
       Name          "Continuous PID\nController1"
       Show          on
-      Position      [350, 410]
+      Position      [385, 140]
       Direction     up
       Flipped       off
       LabelPosition south
@@ -870,7 +871,7 @@ Plecs {
       }
       Parameter {
         Variable      "kp"
-        Value         "0.7"
+        Value         "0.3"
         Show          off
       }
       Parameter {
@@ -998,7 +999,7 @@ Plecs {
       Type          Constant
       Name          "V_ref"
       Show          on
-      Position      [80, 410]
+      Position      [165, 140]
       Direction     right
       Flipped       off
       LabelPosition south
@@ -1018,7 +1019,7 @@ Plecs {
       Type          Sum
       Name          "Sum1"
       Show          off
-      Position      [215, 410]
+      Position      [300, 140]
       Direction     up
       Flipped       off
       LabelPosition south
@@ -1042,21 +1043,21 @@ Plecs {
       Type          Scope
       Name          "Scope3"
       Show          on
-      Position      [660, 410]
+      Position      [590, 265]
       Direction     up
       Flipped       off
       LabelPosition south
-      Location      [26, 169; 652, 582]
+      Location      [26, 169; 652, 598]
       State         "AAAA/wAAAAD9AAAAAgAAAAEAAAAAAAAAAPwCAAAAA/sAAAAQAFoAbwBvA"
 "G0AQQByAGUAYQAAAAAA/////wAAADQA////+wAAABQAUwBhAHYAZQBkAFYAaQBlAHcAcwAAAAAA//"
 "///wAAAGYA////+wAAAAwAVAByAGEAYwBlAHMAAAAAAP////8AAABmAP///wAAAAMAAAJyAAAAW/w"
-"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQBAAAAAAAAAnIAAABOAP///wAAAnIAAAEjAAAA"
+"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQBAAAAAAAAAnIAAABOAP///wAAAnIAAAEzAAAA"
 "BAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAA"
 "AAAAA=="
       SavedViews    "AAAAAgAAAAA="
-      HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJAAAAA"
-"gAAAGQAAAADAAAAZAAAAAEAAABkAAAABgAAAGQAAAAHAAAAZAAAAAQAAABkAAAABQAAAGQAAAAIAA"
-"AAZAAAAAkAAABkAAACZQAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAADMAAA"
+      HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAL/gMAAAAJAAAAC"
+"AAAAGQAAAAJAAAAZAAAAAYAAABkAAAABwAAAGQAAAAEAAAAZAAAAAUAAABkAAAAAgAAAGQAAAADAA"
+"AAZAAAAAEAAABkAAACZQAAAAsBAAABAAAAAAAAAAAAAAAAZP////8AAACBAAAAAAAAAAsAAADMAAA"
 "AAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAA"
 "AAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAA"
 "AGZAAAAAQAAAAAAAAPoAAAAABg="
@@ -1100,62 +1101,93 @@ Plecs {
       }
     }
     Component {
-      Type          Reference
-      SrcComponent  "Components/Control/Small Signal Analysis/Loop Gain Meter"
-      Name          "Loop Gain Meter1"
+      Type          SmallSignalPerturbation
+      Name          "Perturbation"
       Show          on
-      Position      [180, 460]
-      Direction     down
-      Flipped       on
+      Position      [575, 140]
+      Direction     right
+      Flipped       off
       LabelPosition south
-      Frame         [-10, -10; 10, 10]
       Parameter {
-        Variable      "invert"
+        Variable      "ShowInput"
+        Value         "2"
+        Show          off
+      }
+    }
+    Component {
+      Type          SmallSignalResponse
+      Name          "Response"
+      Show          on
+      Position      [375, 345]
+      Direction     right
+      Flipped       off
+      LabelPosition south
+      Parameter {
+        Variable      "ShowReference"
         Value         "1"
         Show          off
       }
-      Terminal {
-        Type          Input
-        Position      [10, 0]
-        Direction     right
+      Parameter {
+        Variable      "InvertReference"
+        Value         "1"
+        Show          off
       }
-      Terminal {
-        Type          Output
-        Position      [-14, 0]
-        Direction     left
+    }
+    Component {
+      Type          SmallSignalPerturbation
+      Name          "Perturbation1"
+      Show          on
+      Position      [475, 350]
+      Direction     right
+      Flipped       off
+      LabelPosition south
+      Parameter {
+        Variable      "ShowInput"
+        Value         "2"
+        Show          off
       }
     }
     Component {
       Type          Reference
-      SrcComponent  "Components/Control/Small Signal Analysis/Loop Gain Meter"
-      Name          "Loop Gain Meter2"
+      SrcComponent  "Components/Control/Sources/Ramp"
+      Name          "Ramp"
       Show          on
-      Position      [150, 255]
-      Direction     down
-      Flipped       on
+      Position      [230, 140]
+      Direction     up
+      Flipped       off
       LabelPosition south
-      Frame         [-10, -10; 10, 10]
+      Frame         [-15, -15; 15, 15]
       Parameter {
-        Variable      "invert"
-        Value         "1"
+        Variable      "slope"
+        Value         "5000"
+        Show          off
+      }
+      Parameter {
+        Variable      "start"
+        Value         "0"
+        Show          off
+      }
+      Parameter {
+        Variable      "X0"
+        Value         "0"
+        Show          off
+      }
+      Parameter {
+        Variable      "XFinal"
+        Value         "12"
         Show          off
       }
       Terminal {
-        Type          Input
-        Position      [10, 0]
-        Direction     right
-      }
-      Terminal {
         Type          Output
-        Position      [-14, 0]
-        Direction     left
+        Position      [19, 0]
+        Direction     right
       }
     }
     Connection {
       Type          Wire
       SrcComponent  "V_dc"
       SrcTerminal   1
-      Points        [145, 120]
+      Points        [610, 430]
       DstComponent  "IGBT1"
       DstTerminal   1
     }
@@ -1163,28 +1195,28 @@ Plecs {
       Type          Wire
       SrcComponent  "D1"
       SrcTerminal   1
-      Points        [290, 190]
+      Points        [755, 500]
       Branch {
-        Points        [415, 190]
+        Points        [880, 500]
         Branch {
           DstComponent  "C1"
           DstTerminal   2
         }
         Branch {
-          Points        [445, 190]
+          Points        [910, 500]
           Branch {
             DstComponent  "R1"
             DstTerminal   2
           }
           Branch {
-            Points        [480, 190]
+            Points        [945, 500]
             DstComponent  "R2"
             DstTerminal   2
           }
         }
       }
       Branch {
-        Points        [145, 190]
+        Points        [610, 500]
         DstComponent  "V_dc"
         DstTerminal   2
       }
@@ -1193,7 +1225,7 @@ Plecs {
       Type          Wire
       SrcComponent  "D1"
       SrcTerminal   2
-      Points        [290, 120]
+      Points        [755, 430]
       Branch {
         DstComponent  "IGBT1"
         DstTerminal   2
@@ -1207,19 +1239,19 @@ Plecs {
       Type          Wire
       SrcComponent  "C1"
       SrcTerminal   1
-      Points        [415, 120]
+      Points        [880, 430]
       Branch {
         DstComponent  "L1"
         DstTerminal   2
       }
       Branch {
-        Points        [445, 120]
+        Points        [910, 430]
         Branch {
           DstComponent  "R1"
           DstTerminal   1
         }
         Branch {
-          Points        [445, 75]
+          Points        [910, 385]
           DstComponent  "S1"
           DstTerminal   2
         }
@@ -1229,24 +1261,9 @@ Plecs {
       Type          Signal
       SrcComponent  "Triangular Wave"
       SrcTerminal   1
-      Points        [450, 330; 450, 265]
+      Points        [775, 215; 775, 150]
       DstComponent  "Comparator"
       DstTerminal   2
-    }
-    Connection {
-      Type          Signal
-      SrcComponent  "Comparator"
-      SrcTerminal   3
-      Points        [535, 260]
-      Branch {
-        DstComponent  "Scope2"
-        DstTerminal   1
-      }
-      Branch {
-        Points        [535, 50; 225, 50]
-        DstComponent  "IGBT1"
-        DstTerminal   3
-      }
     }
     Connection {
       Type          Wire
@@ -1259,9 +1276,9 @@ Plecs {
       Type          Signal
       SrcComponent  "Probe1"
       SrcTerminal   1
-      Points        [105, 300]
+      Points        [610, 185]
       Branch {
-        Points        [225, 300]
+        Points        [635, 185]
         DstComponent  "Sum"
         DstTerminal   3
       }
@@ -1286,24 +1303,25 @@ Plecs {
     }
     Connection {
       Type          Signal
-      SrcComponent  "V_ref"
-      SrcTerminal   1
-      DstComponent  "Sum1"
-      DstTerminal   2
-    }
-    Connection {
-      Type          Signal
       SrcComponent  "Probe"
       SrcTerminal   1
-      Points        [115, 460]
+      Points        [220, 180]
       Branch {
-        Points        [115, 490]
-        DstComponent  "Scope"
-        DstTerminal   1
+        Points        [220, 225]
+        Branch {
+          DstComponent  "Scope"
+          DstTerminal   1
+        }
+        Branch {
+          Points        [220, 345]
+          DstComponent  "Response"
+          DstTerminal   1
+        }
       }
       Branch {
-        DstComponent  "Loop Gain Meter1"
-        DstTerminal   1
+        Points        [300, 180]
+        DstComponent  "Sum1"
+        DstTerminal   3
       }
     }
     Connection {
@@ -1315,31 +1333,46 @@ Plecs {
     }
     Connection {
       Type          Signal
-      SrcComponent  "Loop Gain Meter1"
-      SrcTerminal   2
-      Points        [215, 460]
-      DstComponent  "Sum1"
-      DstTerminal   3
+      SrcComponent  "Comparator"
+      SrcTerminal   3
+      Points        [860, 145]
+      Branch {
+        DstComponent  "Scope2"
+        DstTerminal   1
+      }
+      Branch {
+        Points        [860, 270; 690, 270]
+        DstComponent  "IGBT1"
+        DstTerminal   3
+      }
+    }
+    Connection {
+      Type          Signal
+      SrcComponent  "Perturbation"
+      SrcTerminal   1
+      DstComponent  "Sum"
+      DstTerminal   2
     }
     Connection {
       Type          Signal
       SrcComponent  "Continuous PID\nController1"
       SrcTerminal   2
-      DstComponent  "Scope3"
-      DstTerminal   1
+      Points        [505, 140]
+      Branch {
+        Points        [505, 265]
+        DstComponent  "Scope3"
+        DstTerminal   1
+      }
+      Branch {
+        DstComponent  "Perturbation"
+        DstTerminal   2
+      }
     }
     Connection {
       Type          Signal
-      SrcComponent  "I_ref"
+      SrcComponent  "Ramp"
       SrcTerminal   1
-      DstComponent  "Loop Gain Meter2"
-      DstTerminal   1
-    }
-    Connection {
-      Type          Signal
-      SrcComponent  "Loop Gain Meter2"
-      SrcTerminal   2
-      DstComponent  "Sum"
+      DstComponent  "Sum1"
       DstTerminal   2
     }
   }
@@ -1383,5 +1416,25 @@ Plecs {
     JacobianCalculation "2"
     InitCycles    "0"
   }
+  Analysis {
+    Type          ACSweep
+    Name          "AC Sweep2"
+    ShowLegend    "1"
+    OperatingPoint "1"
+    TimeSpan      "1/fs"
+    StartTime     "0"
+    Tolerance     "1e-4"
+    MaxIter       "20"
+    FrequencyRange "[10 fs]"
+    FrequencyScale "2"
+    AdditionalFreqs "[]"
+    AmplitudeRange "1e-3"
+    NumPoints     "21"
+    Perturbation  "Perturbation"
+    Response      "Response"
+    JacobianPerturbation "1e-4"
+    JacobianCalculation "2"
+    InitCycles    "0"
+  }
 }
-DemoSignature "y/xltVKHgU8L4ati5+1nm2dywHa07YVdxXN11tuJsr0="
+DemoSignature "vrHTDpwsVSemRiOj3QckEea+VEjUXVqNjzLdciWRLVk="
